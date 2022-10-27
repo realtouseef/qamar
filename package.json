@@ -4,6 +4,9 @@
   "author": "touseef ibn khaleel <touseef69r@gmail.com>",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.20"
