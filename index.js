@@ -21,6 +21,14 @@ app.get("/duas", getDuas);
 
 app.get("/duas/:duaid", getDua);
 
+app.use((req, res) => {
+  res
+    .status(404)
+    .send(
+      "Either this page doesn't exist or you might have entered a incorrect url"
+    );
+});
+
 app.listen(PORT, (req, res) =>
   console.log(`Port running at http://localhost:${PORT}`)
 );

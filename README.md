@@ -5,6 +5,11 @@ An API that shows verses from the Qur'an based on emotions.
 The `duas.json` has `duas` picked from either `Qur'an` or `Hadith`.
 And `emotionBasedVerses.json` has verses picked from `Qur'an` only.
 
+## Available Duas / Verses
+
+- **Qamar** has **27** verses in `emotionBasedVerses.json`
+- And **28** duas in `duas.json`
+
 ## Endpoint
 
 1. `/verses` returns all of the `verses` that are present.
@@ -43,9 +48,6 @@ And `emotionBasedVerses.json` has verses picked from `Qur'an` only.
 PS: Some of the `translation` is not present for now, but will be soon added. If you're interested in making a contribution, please do so.
 
 ## For Contribution
-
-- Apparently, **Qamar** has **27** verses in `emotionBasedVerses.json`
-- And **28** duas in `duas.json`
 
 Please clone this repo by pasting the below code in the terminal
 
