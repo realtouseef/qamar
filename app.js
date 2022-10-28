@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const { getVerses, getVerse } = require("./controllers/verseController");
-const { getDuas, getDua } = require("./controllers/duaController");
+const versesRoute = require("./routes/verseRoutes");
+const duasRoute = require("./routes/duasRoutes");
 
 const app = express();
 app.use(cors());
@@ -13,14 +13,13 @@ app.get("/", (req, res) =>
   )
 );
 
-app.get("/verses", getVerses);
+// verses routes
+app.use("/verses", versesRoute);
 
-app.get("/verses/:verseid", getVerse);
+// duas routes
+app.use("/duas", duasRoute);
 
-app.get("/duas", getDuas);
-
-app.get("/duas/:duaid", getDua);
-
+// 404 routes
 app.use((req, res) => {
   res
     .status(404)

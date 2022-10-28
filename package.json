@@ -2,10 +2,10 @@
   "name": "qamar",
   "description": "An API that shows verses from the Qur'an based on emotions.",
   "author": "touseef ibn khaleel <touseef69r@gmail.com>",
-  "version": "1.1.0",
-  "main": "index.js",
+  "version": "1.2.1",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "license": "MIT",
   "keywords": [
