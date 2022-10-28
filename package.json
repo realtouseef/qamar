@@ -2,16 +2,22 @@
   "name": "qamar",
   "description": "An API that shows verses from the Qur'an based on emotions.",
   "author": "touseef ibn khaleel <touseef69r@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
   "license": "MIT",
+  "keywords": [
+    "quran api",
+    "quran restful api",
+    "quran verses api"
+  ],
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   }
 }
