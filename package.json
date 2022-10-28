@@ -5,7 +5,8 @@
   "version": "1.2.1",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "license": "MIT",
   "keywords": [
