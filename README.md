@@ -41,7 +41,8 @@ And `emotionBasedVerses.json` has verses picked from `Qur'an` only.
   "title": "For Forgiveness",
   "arabic": " رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى",
   "urdu_translation": " اے پروردگار میں نے اپنے آپ پر ظلم کیا تو مجھے بخش دے",
-  "english_translation": "My Lord! I have definitely wronged my soul, so forgive me."
+  "english_translation": "My Lord! I have definitely wronged my soul, so forgive me.",
+  "reference": ""
 }
 ```
 
@@ -74,7 +75,8 @@ If you wanna add more `duas` or `verses`, please follow this pattern:
   "sub_tite": "",
   "arabic": "",
   "urdu_translation": "",
-  "english_translation": ""
+  "english_translation": "",
+  "reference": ""
 }
 ```
 
@@ -86,6 +88,7 @@ If you wanna add more `duas` or `verses`, please follow this pattern:
   "title": "",
   "arabic": "",
   "urdu_translation": "",
-  "english_translation": ""
+  "english_translation": "",
+  "reference": ""
 }
 ```
